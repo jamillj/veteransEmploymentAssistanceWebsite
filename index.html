@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Veterans Employment Assistance video resources in a one-screen career transition command center.">
+    <title>Veterans Employment Assistance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body class="veterans-console-page">
+    <main class="veterans-console" aria-labelledby="console-title">
+        <header class="console-header">
+            <a class="console-brand" href="index.html" aria-label="Veterans Employment Assistance home">
+                <span class="console-brand-mark" aria-hidden="true">VEA</span>
+                <span>
+                    <strong>Veterans Employment Assistance</strong>
+                    <small>Free veteran video guidance</small>
+                </span>
+            </a>
+        </header>
+
+        <section class="console-stage" aria-live="polite">
+            <div class="console-display">
+                <div class="console-video-plane" id="consoleVisual">
+                    <i class="fas fa-play-circle" aria-hidden="true"></i>
+                    <span>Orientation Video</span>
+                </div>
+
+                <article class="console-copy" id="consolePanel" tabindex="-1">
+                    <p class="console-kicker" id="consoleKicker">Start here</p>
+                    <h1 id="console-title">Orientation Video</h1>
+                    <p id="consoleLead">A short starting point for using Veterans Employment Assistance video resources.</p>
+                    <div class="console-action-row" id="consoleActions">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <nav class="console-mode-rail" aria-label="Veterans Employment Assistance content modes">
+            <button class="console-mode is-active" type="button" data-mode="orientation" aria-pressed="true">
+                <span>01</span> Orientation
+            </button>
+            <button class="console-mode" type="button" data-mode="manual" aria-pressed="false">
+                <span>02</span> Manual Walkthrough
+            </button>
+            <button class="console-mode" type="button" data-mode="ai" aria-pressed="false">
+                <span>03</span> JAR Career Guidance
+            </button>
+            <button class="console-mode" type="button" data-mode="benefits" aria-pressed="false">
+                <span>04</span> Federal Benefits
+            </button>
+            <button class="console-mode" type="button" data-mode="faq" aria-pressed="false">
+                <span>05</span> FAQ
+            </button>
+            <button class="console-mode" type="button" data-mode="federal" aria-pressed="false">
+                <span>06</span> Affiliate Programs
+            </button>
+        </nav>
+
+        <footer class="console-footer">
+            <span>&copy; 2026 Veterans Employment Assistance.</span>
+            <span class="console-footer-links">
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="privacy-policy.html">Privacy</a>
+                <a href="terms-and-conditions.html">Terms</a>
+            </span>
+        </footer>
+    </main>
+
+    <script src="veterans-console.js"></script>
+</body>
+
+</html>
